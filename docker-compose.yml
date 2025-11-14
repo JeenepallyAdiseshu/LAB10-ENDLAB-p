@@ -24,7 +24,7 @@ services:
     image: jeenepallyadiseshu/docker-backend-10-p:latest
     container_name: springboot
     ports:
-      - "2025:8081"
+      - "2025:2025"
     depends_on:
       mysqldb:
         condition: service_healthy
